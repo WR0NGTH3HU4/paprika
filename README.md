@@ -2,7 +2,7 @@
 - By: Máté Kulimák
 
 ## Pages
-- http://paprika.com/
+- 
 
 ## index.html
 - Ezen a főablakon található egy fejléc ami mögött egy kép látható. Ezek alatt van egy bekezdés ami a paprika fajtáit mutatja be egy felsoolás segítségével. Mellette bal oldalt olvasható egy bemutatás a paprika történetéről. Ez alatt egy "Csipősség" nevű leírás van egy táblázat kíséretében ami a legcsípősebb paprikákat írja le a Scoville értékével.
