@@ -1,39 +1,74 @@
 body{
-    background-color: #FFEFD5;
-    color: #8B4513;
+    background-color: #FFEFD5 ;
+    color: #8B4513 ;
+    text-align: justify;
+    margin-top:0px ;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+}   
+
+#cim{
+    background-image: url('MicrosoftTeams-image\ \(3\).png');
+    padding: 10px;
+    border: 1px solid black;
+    
 }
 
-.fejlec{
-    margin: auto;
-}
-
-a, a:hover{
-    color: #8B4513;
-}
-
-table{
-    border: 1px solid blue;
-    float: right;
-    margin: auto;
+table,td,th{
     width: 300px;
-    text-align: center;
+    border: 1px solid black;
     border-collapse: collapse;
+    margin: auto;
+    text-align: left;
+    
+
+}  
+
+th{
+    width: 120px;
+    text-align: center;
 }
 
-table td, table th {
-    border: 1px solid blue;
+.négyzetek{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 2px solid lightblue;
+    list-style-image: url('chili-pepper-icon.gif');
+    margin-bottom: 20px;
 }
-table tr:first-child th {
-    border-top: 0;
+
+a{
+    text-decoration: none;
+    color: black;
 }
-table tr:last-child td {
-    border-bottom: 0;
- }
-table tr td:first-child,
-table tr th:first-child {
-    border-left: 0;
+
+#zold{
+    background-color: rgb(28, 209, 28);
 }
-table tr td:last-child,
-table tr th:last-child {
-    border-right: 0;
+
+#sarga{
+    background-color: rgb(216, 216, 59);
+}
+
+#piros{
+    background-color: red;
+}
+
+#lila{
+    background-color: rgb(212, 31, 212);
+}
+
+#bemutatas{
+    float: right;
+    width: 500px;
+    height: 100px;
+}
+
+#csiposseg{
+    width: 500px;
+    height: 100px;
+    float: right;
 }
