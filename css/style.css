@@ -1,74 +1,87 @@
-body{
-    background-color: #FFEFD5 ;
-    color: #8B4513 ;
-    text-align: justify;
-    margin-top:0px ;
-    margin-right: 200px;
-    margin-bottom: 0px;
-    margin-left: 200px;
-}   
-
-#cim{
-    background-image: url('MicrosoftTeams-image\ \(3\).png');
-    padding: 10px;
-    border: 1px solid black;
-    
+body {
+    background-color: papayawhip;
+    color: saddlebrown;
+    max-width: 1000px;
+    margin: auto;
 }
 
-table,td,th{
-    width: 300px;
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin: auto;
-    text-align: left;
+#fejlec {
+    background-image: url("../képek/sok.png");
+    background-size: auto;
+    padding: 1rem;
+}
+
+#fokeret {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    #fokeret {
+        flex-wrap: wrap;
+    }
     
+    #menu {
+        margin: auto;
+        width: 100%;
+    }
 
-}  
+    #menu ul {
+        text-align: center;
+    }
 
-th{
+    #menu ul li {
+        display: inline-block;
+    }
+} 
+
+
+#menu ul li {
+    list-style-image: url("../képek/MicrosoftTeams-image.png");
+    background-color: white;
+    border: 1px solid cadetblue;
+    padding: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+table {
+    width: 300px;
+    margin: 20px auto auto auto;
+    border-collapse: collapse;
+}
+
+table, th, tr, td {
+    border: 1px solid black;    
+    font-weight: bold;
+    padding: 5px;
+}
+
+table td:nth-child(2) {
     width: 120px;
     text-align: center;
 }
 
-.négyzetek{
-    width: 150px;
-    height: 50px;
-    background-color: white;
-    color: black;
-    border: 2px solid lightblue;
-    list-style-image: url('chili-pepper-icon.gif');
-    margin-bottom: 20px;
+table tr:nth-child(2) td:nth-child(2) {
+    background-color: greenyellow;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+table tr:nth-child(3) td:nth-child(2) {
+    background-color: yellow;
 }
 
-#zold{
-    background-color: rgb(28, 209, 28);
+table tr:nth-child(4) td:nth-child(2) {
+    background-color: palevioletred;
 }
 
-#sarga{
-    background-color: rgb(216, 216, 59);
-}
-
-#piros{
-    background-color: red;
-}
-
-#lila{
-    background-color: rgb(212, 31, 212);
-}
-
-#bemutatas{
-    float: right;
-    width: 500px;
-    height: 100px;
-}
-
-#csiposseg{
-    width: 500px;
-    height: 100px;
-    float: right;
+table tr:nth-child(5) td:nth-child(2) {
+    background-color: plum; 
 }
