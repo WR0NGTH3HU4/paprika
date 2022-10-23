@@ -85,3 +85,51 @@ table tr:nth-child(4) td:nth-child(2) {
 table tr:nth-child(5) td:nth-child(2) {
     background-color: plum; 
 }
+
+
+@media only screen and (max-width: 768px){
+    #menu{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:769px ){
+    #hamburger {
+        visibility: hidden;
+    }
+
+}
+
+.hatter{
+    background-color:papayawhip ;
+}
+
+.navhatter{
+    background-color:papayawhip ;
+}
+
+.gombhatter{
+    background-color: saddlebrown;
+    width: 40px;
+    margin-left: 800%;
+}
+
+.li{
+    color: saddlebrown;
+    text-decoration: none;
+    text-transform: none;
+
+}
+
+.li:hover{
+    text-decoration: none;
+    text-transform: none;
+    color: saddlebrown;
+}
+
+
+
+
+
+
+
